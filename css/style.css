@@ -61,13 +61,15 @@ header {
   background: rgba(0, 0, 0, 0.95);
   text-align: center;
   transition: all .5s;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .main-nav__item {
   display: none;
   line-height: 30px;
   margin: 50px 0;
-  transition: all 5s; }
+  transition: all 5s;
+}
 
 .main-nav__link {
   color: #fff;
@@ -76,18 +78,18 @@ header {
   font-weight: 600;
   text-decoration: none; }
 
-.main-nav__link.active, .main-nav__link:hover {
+.main-nav__link.active, 
+.main-nav__link:hover {
   background-color: var(--primary);
   transition: .5s; }
 
 #check {
   display: none; }
-
 #check:checked ~ .main-nav__list {
   height: 100vh; }
-
-#check:checked ~ .main-nav__item {
-  display: block; }
+#check:checked ~ .main-nav__list li {
+  display: block;
+ }
 
 /* PROMO */
 .promo {
@@ -189,7 +191,8 @@ header {
   border-radius: 5px;
   box-shadow: 0;
   transform: scale(0.95);
-  transition: box-shadow .3s ease-in-out, transform .3s ease-in-out;
+  transition: box-shadow .3s ease-in-out,
+ transform .3s ease-in-out;
   overflow: hidden; }
 
 .card:hover {
@@ -462,34 +465,34 @@ header {
   transform: scale(1.04); }
 
 .fondo-uno {
-  background-image: url("https://picsum.photos/id/231/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/279/900/900.jpg"); }
 
 .fondo-dos {
-  background-image: url("https://picsum.photos/id/426/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/263/900/900.jpg"); }
 
 .fondo-tres {
-  background-image: url("https://picsum.photos/id/776/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/588/900/900.jpg"); }
 
 .fondo-cuatro {
-  background-image: url("https://picsum.photos/id/196/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/170/900/900.jpg"); }
 
 .fondo-cinco {
-  background-image: url("https://picsum.photos/id/415/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/554/900/900.jpg"); }
 
 .fondo-seis {
-  background-image: url("https://picsum.photos/id/910/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/140/900/900.jpg"); }
 
 .fondo-siete {
-  background-image: url("https://picsum.photos/id/397/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/614/900/900.jpg"); }
 
 .fondo-ocho {
-  background-image: url("https://picsum.photos/id/605/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/370/900/900.jpg"); }
 
 .fondo-nueve {
-  background-image: url("https://picsum.photos/id/4/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/312/900/900.jpg"); }
 
 .fondo-diez {
-  background-image: url("https://picsum.photos/id/867/900/900.jpg"); }
+  background-image: url("https://picsum.photos/id/241/900/900.jpg"); }
 
 @media (min-width: 600px) {
   .wide {
