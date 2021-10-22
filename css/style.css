@@ -465,34 +465,34 @@ header {
   transform: scale(1.04); }
 
 .fondo-uno {
-  background-image: url("https://picsum.photos/id/279/900/900.jpg"); }
+  background-image: url("/assets/about/1.jpg"); }
 
 .fondo-dos {
-  background-image: url("https://picsum.photos/id/263/900/900.jpg"); }
+  background-image: url("/assets/about/2.jpg"); }
 
 .fondo-tres {
-  background-image: url("https://picsum.photos/id/588/900/900.jpg"); }
+  background-image: url("/assets/about/3.jpg"); }
 
 .fondo-cuatro {
-  background-image: url("https://picsum.photos/id/170/900/900.jpg"); }
+  background-image: url("/assets/about/4.jpg"); }
 
 .fondo-cinco {
-  background-image: url("https://picsum.photos/id/554/900/900.jpg"); }
+  background-image: url("/assets/about/5.jpg"); }
 
 .fondo-seis {
-  background-image: url("https://picsum.photos/id/140/900/900.jpg"); }
+  background-image: url("/assets/about/6.jpg"); }
 
 .fondo-siete {
-  background-image: url("https://picsum.photos/id/614/900/900.jpg"); }
+  background-image: url("/assets/about/7.jpg"); }
 
 .fondo-ocho {
-  background-image: url("https://picsum.photos/id/370/900/900.jpg"); }
+  background-image: url("/assets/about/8.jpg"); }
 
 .fondo-nueve {
-  background-image: url("https://picsum.photos/id/312/900/900.jpg"); }
+  background-image: url("/assets/about/9.jpg"); }
 
 .fondo-diez {
-  background-image: url("https://picsum.photos/id/241/900/900.jpg"); }
+  background-image: url("/assets/about/10.jpg"); }
 
 @media (min-width: 600px) {
   .wide {
